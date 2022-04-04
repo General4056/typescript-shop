@@ -1,0 +1,112 @@
+.page {
+  width: 1150px;
+  margin: auto;
+}
+
+.page__container {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  margin: 20px 0;
+  font-size: 26px;
+}
+
+.image {
+  width: 500px;
+  margin: 30px;
+  min-height: 500px;
+  object-fit: contain;
+}
+
+.short_descr {
+  width: 530px;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  margin: 30px 30px 30px 0px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.buy__container {
+  display: flex;
+  flex-direction: column;
+  width: 530px;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.5);
+}
+
+.price__top_line {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 20px;
+}
+.price {
+  border-radius: 8px;
+  padding: 5px;
+  width: 50%;
+  font-size: 26px;
+  font-weight: 600;
+  background-color: rgb(233, 233, 233);
+}
+
+.button {
+  color: white;
+  border: 0;
+  border-radius: 8px;
+  width: 150px;
+  height: 49px;
+  background-image: linear-gradient(to top, rgb(252, 133, 7), rgb(255, 162, 24));
+  cursor: pointer;
+}
+
+.button:hover {
+  background-image: linear-gradient(to top, rgb(252, 85, 7), rgb(253, 154, 5));
+}
+
+.button:disabled {
+  background-image: linear-gradient(to top, rgb(0, 0, 0), rgb(0, 0, 0));
+  opacity: 0.7;
+  background-color: white;
+  cursor: default;
+}
+
+.price__bot_line {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 20px;
+}
+
+.oreder {
+  border-radius: 8px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  background-color: rgb(233, 233, 233);
+}
+
+.oreder__text {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.description {
+  margin: 20px 0;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+}
+
+.loader__container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
