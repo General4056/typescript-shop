@@ -1,7 +1,6 @@
-import React, { useContext, useEffect } from 'react';
+import { useContext, useEffect } from 'react';
 import styles from './BurgerMenu.module.css';
 import { MenuContext } from '../../contexts/menuContext';
-import { useSelector } from 'react-redux';
 import { fetchCategories, setCategory } from '../../store/reducers/categoriesSlice';
 import { useAppDispatch, useAppSelector } from '../../utils/redux';
 

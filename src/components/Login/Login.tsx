@@ -2,7 +2,7 @@ import styles from './Login.module.css';
 import { useInput } from '../../utils/useInput';
 import { useNavigate } from 'react-router-dom';
 import { useAppDispatch } from '../../utils/redux';
-import { changeUserEmail, changeUserInfo, setLoggedIn } from '../../store/reducers/userInfoSlice';
+import { changeUserInfo, setLoggedIn } from '../../store/reducers/userInfoSlice';
 
 export default function Login() {
   const navigate = useNavigate();

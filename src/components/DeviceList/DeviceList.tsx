@@ -1,9 +1,7 @@
-import React from 'react';
 import { Container, Row } from 'react-bootstrap';
 import styles from './DeviceList.module.css';
 import DeviceItem from '../DeviceItem/DeviceItem';
 import Loader from '../Loader/Loader';
-import { useSelector } from 'react-redux';
 import { useAppSelector } from '../../utils/redux';
 
 export default function DeviceList() {

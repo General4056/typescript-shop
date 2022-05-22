@@ -1,8 +1,5 @@
-import React, { useContext, useEffect } from 'react';
+import React from 'react';
 import styles from './Account.module.css';
-import { MenuContext } from '../../contexts/menuContext';
-import { useSelector } from 'react-redux';
-import { fetchCategories, setCategory } from '../../store/reducers/categoriesSlice';
 import { useAppDispatch, useAppSelector } from '../../utils/redux';
 import { useInput } from '../../utils/useInput';
 import { changeUserInfo } from '../../store/reducers/userInfoSlice';
